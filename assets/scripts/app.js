@@ -9,8 +9,10 @@ function getUserNumberInput() {
 function add() {
   const enteredNumber = getUserNumberInput()
   const description = `${currentResult} + ${enteredNumber}`;
-  currentResult = currentResult + enteredNumber)
+  currentResult = currentResult + enteredNumber
   outputResult(currentResult, description)
 }
+
+
 
 addBtn.addEventListener('click', add);
